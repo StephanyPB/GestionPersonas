@@ -43,5 +43,11 @@ namespace GestionPersonas
             rGrupos grupo = new rGrupos();
             grupo.Show();
         }
+
+        private void AportesMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            rAportes aporte = new rAportes();
+            aporte.Show();
+        }
     }
 }

@@ -7,13 +7,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Buscar.png" />
+    <None Remove="Resources\eliminar.jpeg" />
+    <None Remove="Resources\guardar.jpeg" />
+    <None Remove="Resources\icons8-add-48.png" />
     <None Remove="Resources\icons8-eliminar-16.png" />
     <None Remove="Resources\icons8-google-web-search-24.png" />
     <None Remove="Resources\icons8-guardar-48.png" />
     <None Remove="Resources\icons8-nuevo-48.png" />
+    <None Remove="Resources\nuevo.jpeg" />
+    <None Remove="Resources\Remover.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Resources\Buscar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\eliminar.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\guardar.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\icons8-add-48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\icons8-eliminar-16.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -24,6 +42,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\icons8-nuevo-48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\nuevo.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Remover.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
